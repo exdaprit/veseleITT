@@ -59,15 +59,7 @@ export default function ContactForm() {
             </div>
 
             <div className="space-y-6">
-              <div className="flex items-center gap-4">
-                <div className="bg-primary/10 p-3 rounded-full text-primary">
-                  <Phone className="w-5 h-5" />
-                </div>
-                <div>
-                  <p className="text-sm text-gray-500 font-sans">Zavolejte nám</p>
-                  <p className="font-semibold text-foreground">+420 123 456 789</p>
-                </div>
-              </div>
+
               <div className="flex items-center gap-4">
                 <div className="bg-primary/10 p-3 rounded-full text-primary">
                   <Mail className="w-5 h-5" />
@@ -147,19 +139,7 @@ export default function ContactForm() {
                     />
                   </div>
                 </div>
-                <div>
-                  <label htmlFor="phone" className="block text-sm font-semibold leading-6 text-foreground">
-                    Telefon
-                  </label>
-                  <div className="mt-2.5">
-                    <input
-                      type="tel"
-                      name="phone"
-                      id="phone"
-                      className="block w-full rounded-xl border-0 px-3.5 py-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6 transition-shadow"
-                    />
-                  </div>
-                </div>
+
                 <div>
                   <label htmlFor="message" className="block text-sm font-semibold leading-6 text-foreground">
                     Jak vám mohu pomoci?

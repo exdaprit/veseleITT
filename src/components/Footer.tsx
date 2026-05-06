@@ -101,10 +101,6 @@ export default function Footer() {
                 <h3 className="text-sm font-semibold leading-6 text-white font-sans uppercase tracking-wider">Kontakt</h3>
                 <ul role="list" className="mt-6 space-y-4">
                   <li className="flex items-center gap-3 text-sm leading-6 text-slate-400">
-                    <Phone className="h-4 w-4 text-primary" />
-                    <a href="tel:+420123456789" className="hover:text-primary transition-colors">+420 123 456 789</a>
-                  </li>
-                  <li className="flex items-center gap-3 text-sm leading-6 text-slate-400">
                     <Mail className="h-4 w-4 text-primary" />
                     <a href="mailto:info@veseleit.cz" className="hover:text-primary transition-colors">info@veseleit.cz</a>
                   </li>
