@@ -12,12 +12,12 @@ export default function ContactForm() {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
+
     const formData = new FormData(e.currentTarget);
     const result = await submitContactForm(formData);
-    
+
     setIsSubmitting(false);
-    
+
     if (result.success) {
       setIsSubmitted(true);
     } else {
@@ -26,7 +26,7 @@ export default function ContactForm() {
   };
 
   return (
-    <section id="contact-form" className="py-24 relative overflow-hidden">
+    <section id="contact" className="py-24 relative overflow-hidden">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center mb-16">
           <h2 className="text-base font-semibold leading-7 text-primary font-sans uppercase tracking-wider">Ozvěte se nám</h2>
@@ -66,7 +66,7 @@ export default function ContactForm() {
                 </div>
                 <div>
                   <p className="text-sm text-gray-500 font-sans">Napište nám</p>
-                  <p className="font-semibold text-foreground">info@veseleit.cz</p>
+                  <p className="font-semibold text-foreground">david.prokes@veseleit.cz</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
@@ -90,7 +90,7 @@ export default function ContactForm() {
             className="bg-white/80 backdrop-blur-md p-8 sm:p-10 rounded-3xl shadow-sm ring-1 ring-gray-200"
           >
             {isSubmitted ? (
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
                 className="text-center py-12"

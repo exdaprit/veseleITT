@@ -42,7 +42,7 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <div className="py-24 sm:py-32 relative overflow-hidden">
+    <div id="testimonials" className="py-24 sm:py-32 relative overflow-hidden">
       
       {/* Background shape */}
       <div className="absolute inset-x-0 top-0 -z-10 flex transform-gpu overflow-hidden pt-32 opacity-25 blur-3xl sm:pt-40 xl:justify-end" aria-hidden="true">

@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import ServicesBento from "@/components/ServicesBento";
+import AboutUs from "@/components/AboutUs";
 import Testimonials from "@/components/Testimonials";
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
@@ -14,6 +15,7 @@ export default function Home() {
       <main>
         <Hero />
         <ServicesBento />
+        <AboutUs />
         <Testimonials />
         <ContactForm />
       </main>

@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Menu, X, ShieldCheck } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-
+import { Smile } from "lucide-react";
 const navigation = [
   { name: "Služby", href: "#services" },
   { name: "O nás", href: "#about" },
@@ -17,10 +17,10 @@ export default function Navbar() {
     <header className="absolute inset-x-0 top-0 z-50">
       <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5 flex items-center gap-2">
+          <a href="#hero" className="-m-1.5 p-1.5 flex items-center gap-2">
             <span className="sr-only">Veselé IT</span>
             <div className="bg-primary text-white p-1.5 rounded-lg font-heading font-black text-sm flex items-center justify-center w-8 h-8">
-              V
+              <Smile className="w-5 h-5" />
             </div>
             <span className="font-heading font-bold text-xl tracking-tight text-foreground">Veselé <span className="text-primary">IT</span></span>
           </a>
@@ -58,10 +58,10 @@ export default function Navbar() {
             className="lg:hidden fixed inset-0 z-50 bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
           >
             <div className="flex items-center justify-between">
-              <a href="#" className="-m-1.5 p-1.5 flex items-center gap-2">
+              <a href="#hero" className="-m-1.5 p-1.5 flex items-center gap-2">
                 <span className="sr-only">Veselé IT</span>
                 <div className="bg-primary text-white p-1.5 rounded-lg font-heading font-black text-sm flex items-center justify-center w-8 h-8">
-                  V
+                  <Smile className="w-5 h-5" />
                 </div>
                 <span className="font-heading font-bold text-xl tracking-tight text-foreground">Veselé IT</span>
               </a>

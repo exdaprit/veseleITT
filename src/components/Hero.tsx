@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden pt-28 pb-24 sm:pt-36 lg:py-32 flex items-center min-h-[90vh]">
+    <section id="hero" className="relative overflow-hidden pt-28 pb-24 sm:pt-36 lg:py-32 flex items-center min-h-[90vh]">
 
       {/* Subtle Background Image */}
       <div

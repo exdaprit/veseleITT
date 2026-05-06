@@ -1,14 +1,14 @@
 "use client";
 
-import { ShieldCheck, Mail, Phone, MapPin } from "lucide-react";
+import { ShieldCheck, Mail, Phone, MapPin, Smile } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer id="contact" className="relative bg-[#2e1065] mt-16 sm:mt-24 border-t-0 overflow-visible" aria-labelledby="footer-heading">
+    <footer id="footer" className="relative bg-[#2e1065] mt-16 sm:mt-24 border-t-0 overflow-visible" aria-labelledby="footer-heading">
       <h2 id="footer-heading" className="sr-only">
         Patička a kontakty
       </h2>
-      
+
       {/* Wave shape divider */}
       <div className="absolute top-0 left-0 w-full -translate-y-[99%] overflow-hidden leading-[0] z-20 pointer-events-none">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none" className="relative block w-full h-[40px] sm:h-[80px]">
@@ -25,7 +25,7 @@ export default function Footer() {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#2e1065] to-transparent"></div>
       </div>
-      
+
       {/* Contact CTA */}
       <div className="py-16 sm:py-24 relative z-10">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -38,7 +38,7 @@ export default function Footer() {
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
-                href="mailto:info@veseleit.cz"
+                href="mailto:david.prokes@veseleit.cz"
                 className="rounded-full bg-primary px-8 py-3.5 text-sm font-semibold text-white shadow-sm hover:bg-[#3ddc84] transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
               >
                 Nezávazná poptávka
@@ -51,9 +51,9 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32 relative z-10">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8">
-            <a href="#" className="flex items-center gap-2">
+            <a href="#hero" className="flex items-center gap-2">
               <div className="bg-primary text-white p-1.5 rounded-lg font-heading font-black text-sm flex items-center justify-center w-8 h-8">
-                V
+                <Smile className="w-5 h-5" />
               </div>
               <span className="font-heading font-bold text-xl tracking-tight text-white">Veselé <span className="text-primary">IT</span></span>
             </a>
@@ -102,7 +102,7 @@ export default function Footer() {
                 <ul role="list" className="mt-6 space-y-4">
                   <li className="flex items-center gap-3 text-sm leading-6 text-slate-400">
                     <Mail className="h-4 w-4 text-primary" />
-                    <a href="mailto:info@veseleit.cz" className="hover:text-primary transition-colors">info@veseleit.cz</a>
+                    <a href="mailto:david.prokes@veseleit.cz" className="hover:text-primary transition-colors">david.prokes@veseleit.cz</a>
                   </li>
                   <li className="flex gap-3 text-sm leading-6 text-slate-400">
                     <MapPin className="h-4 w-4 text-primary shrink-0 mt-1" />
