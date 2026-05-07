@@ -38,7 +38,7 @@ export default function Footer() {
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
-                href="mailto:david.prokes@veseleit.cz"
+                href="mailto:david1prokes@gmail.com"
                 className="rounded-full bg-primary px-8 py-3.5 text-sm font-semibold text-white shadow-sm hover:bg-[#3ddc84] transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
               >
                 Nezávazná poptávka
@@ -102,7 +102,7 @@ export default function Footer() {
                 <ul role="list" className="mt-6 space-y-4">
                   <li className="flex items-center gap-3 text-sm leading-6 text-slate-400">
                     <Mail className="h-4 w-4 text-primary" />
-                    <a href="mailto:david.prokes@veseleit.cz" className="hover:text-primary transition-colors">david.prokes@veseleit.cz</a>
+                    <a href="mailto:david1prokes@gmail.com" className="hover:text-primary transition-colors">david1prokes@gmail.com</a>
                   </li>
                   <li className="flex gap-3 text-sm leading-6 text-slate-400">
                     <MapPin className="h-4 w-4 text-primary shrink-0 mt-1" />

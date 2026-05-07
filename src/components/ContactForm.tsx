@@ -66,7 +66,7 @@ export default function ContactForm() {
                 </div>
                 <div>
                   <p className="text-sm text-gray-500 font-sans">Napište nám</p>
-                  <p className="font-semibold text-foreground">david.prokes@veseleit.cz</p>
+                  <p className="font-semibold text-foreground">david1prokes@gmail.com</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
